@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PenisHousingComponent } from './penis-housing.component';
+import { SuccessAlertComponent } from './success-alert.component';
 
-describe('PenisHousingComponent', () => {
-  let component: PenisHousingComponent;
-  let fixture: ComponentFixture<PenisHousingComponent>;
+describe('SuccessAlertComponent', () => {
+  let component: SuccessAlertComponent;
+  let fixture: ComponentFixture<SuccessAlertComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PenisHousingComponent ]
+      declarations: [ SuccessAlertComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PenisHousingComponent);
+    fixture = TestBed.createComponent(SuccessAlertComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
